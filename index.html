@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kousigan Moni - Personal Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 text-gray-900 font-sans leading-normal tracking-normal">
+    <nav class="fixed w-full z-30 top-0 bg-white shadow-md">
+        <div class="w-full flex flex-wrap items-center justify-between py-4 px-6 md:px-12">
+            <div class="flex items-center">
+                <a class="text-2xl font-bold text-gray-800 no-underline hover:no-underline" href="#">
+                    Kousigan Moni
+                </a>
+            </div>
+            <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
+                <ul class="list-reset lg:flex justify-end flex-1 items-center">
+                    <li class="mr-3">
+                        <a class="inline-block py-2 px-4 text-gray-600 hover:text-gray-800 no-underline" href="#about">About</a>
+                    </li>
+                    <li class="mr-3">
+                        <a class="inline-block py-2 px-4 text-gray-600 hover:text-gray-800 no-underline" href="#projects">Projects</a>
+                    </li>
+                    <li class="mr-3">
+                        <a class="inline-block py-2 px-4 text-gray-600 hover:text-gray-800 no-underline" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="w-full">
+        <section id="hero" class="relative flex flex-col-reverse lg:flex-row items-center min-h-screen animated-gradient overflow-hidden">
+            <div class="relative z-10 w-full lg:w-1/2 text-center lg:text-left p-6 md:p-12 lg:p-20">
+                <h1 class="my-4 text-5xl md:text-6xl xl:text-7xl font-bold leading-tight text-white">Hi, I'm Kousigan Moni</h1>
+                <p class="leading-normal text-xl xl:text-2xl mb-8 text-white/90 max-w-2xl mx-auto lg:mx-0">
+                    A passionate professional dedicated to creating innovative solutions and pushing the boundaries of technology.
+                </p>
+                <div class="flex justify-center lg:justify-start space-x-4">
+                    <a href="#contact" class="bg-white text-blue-600 hover:bg-blue-50 font-bold py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:scale-105 shadow-lg">
+                        Get in Touch
+                    </a>
+                </div>
+                <div class="mt-8 flex justify-center lg:justify-start space-x-6">
+                    <a href="https://linkedin.com" target="_blank" class="text-white hover:text-blue-100">
+                        <i class="fab fa-linkedin text-3xl xl:text-4xl"></i>
+                    </a>
+                    <a href="https://github.com" target="_blank" class="text-white hover:text-blue-100">
+                        <i class="fab fa-github text-3xl xl:text-4xl"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="relative z-10 w-full lg:w-1/2 p-6 md:p-12 lg:p-20 text-center">
+                <div class="profile-image-container inline-block max-w-full">
+                    <img src="profile.jpg" alt="Kousigan Moni" class="w-64 h-64 md:w-80 md:h-80 xl:w-96 xl:h-96 mx-auto rounded-full object-cover shadow-xl border-4 border-white/20">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="w-full py-16 px-6 md:px-12 lg:px-20">
+            <h2 class="w-full my-2 text-3xl md:text-4xl xl:text-5xl font-bold leading-tight text-center">About Me</h2>
+            <div class="flex flex-wrap justify-center">
+                <div class="w-full lg:w-2/3 p-6 text-center">
+                    <p class="text-gray-600 text-lg xl:text-xl mb-4">
+                        I am a dedicated professional with a passion for technology and innovation. My expertise lies in creating efficient and impactful solutions that drive progress and solve real-world challenges.
+                    </p>
+                    <p class="text-gray-600 text-lg xl:text-xl">
+                        With a strong background in [Your Field/Expertise], I am committed to continuous learning and pushing the boundaries of what's possible.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="w-full py-16 px-6 md:px-12 lg:px-20">
+            <h2 class="w-full my-2 text-3xl md:text-4xl xl:text-5xl font-bold leading-tight text-center">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="w-full md:w-3/3 p-4">
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <h3 class="text-xl font-semibold mb-4">Project 1</h3>
+                        <p class="text-gray-600 mb-4">A brief description of an impressive project you've worked on.</p>
+                        <a href="#" class="text-blue-500 hover:text-blue-700">View Project</a>
+                    </div>
+                </div>
+                <div class="w-full md:w-3/3 p-4">
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <h3 class="text-xl font-semibold mb-4">Project 2</h3>
+                        <p class="text-gray-600 mb-4">Another exciting project that demonstrates your skills and creativity.</p>
+                        <a href="#" class="text-blue-500 hover:text-blue-700">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="w-full py-16 px-6 md:px-12 lg:px-20">
+            <h2 class="w-full my-2 text-3xl md:text-4xl xl:text-5xl font-bold leading-tight text-center">Contact Me</h2>
+            <div class="w-full md:w-1/3 mx-auto">
+                <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                    <div class="mb-4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+                            Name
+                        </label>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Your Name">
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+                            Email
+                        </label>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Your Email">
+                    </div>
+                    <div class="mb-6">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="message">
+                            Message
+                        </label>
+                        <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" placeholder="Your Message" rows="4"></textarea>
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                            Send Message
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <footer class="bg-white py-8">
+            <div class="container mx-auto px-8 text-center">
+                <p class="text-gray-600">&copy; 2023 Kousigan Moni. All rights reserved.</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
